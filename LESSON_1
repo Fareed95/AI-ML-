@@ -1,0 +1,67 @@
+WHAT IS MACHINE LEARINING ??
+--->
+   IT IS A WAY TO TRAIN COMPUTERS TO GET A DESIRABLE OUTPUT 
+
+
+
+
+WHAT IS FEATURES IN AI ML ?
+---->
+In machine learning, "features" and "labels" are fundamental concepts related to the data used to train a model:
+
+Features: Features are individual measurable properties or characteristics of the phenomenon you are trying to analyze. In simpler terms, they are the variables or attributes that describe the data. For example, in a dataset about houses, features might include square footage, number of bedrooms, location, etc. Features are also known as predictors or independent variables.
+
+Labels: Labels, on the other hand, are the outcomes or predictions you want to make based on the features. They represent the target variable that the model is trying to predict. In supervised learning tasks (where the model learns from labeled data), labels are typically the dependent variable or the value that the model aims to predict based on the input features. For instance, in a dataset where you predict house prices based on features like square footage and location, the price of each house would be the label.
+
+In summary, features are the input data that the model uses to make predictions or classifications, while labels are the outputs or the target values that the model tries to predict or classify.
+
+
+
+
+
+
+WHERE TO GET DATA ???
+--->
+YOU CAN USE ANY WEB SCRAPPER BUT CWH HAS RECOMMENDED UCI ML REPOSITORY
+
+
+
+
+WHAT IS SUPERVISED LEARNING ??
+----> 
+MACHINE KNOWS SOMETHING BEFOREHAND 
+
+
+
+WHAT IS UNSUPERVISED LEARNING ?
+---->
+MACHUNE TRAIN ITSELF AS PER THE ATTRIBUTES VARIABLES 
+
+
+
+
+WHAT IS TRAINING, TESTING AND SPLITTING IN ML?
+----->
+In machine learning, training, testing, and splitting refer to how you handle your data to develop and evaluate your models effectively. Here's a breakdown of these concepts:
+
+Training Data
+Training: This is the process where the machine learning algorithm learns from the data. You feed the training data into the algorithm, and it adjusts its parameters to learn the patterns and relationships within the data. This set includes both the features (input variables) and the labels (output/target variable).
+Testing Data
+Testing: After training the model, you need to evaluate its performance to see how well it generalizes to new, unseen data. This is done using the testing data, which the model has never seen before. The performance on the testing data gives you an indication of how well the model will perform in real-world scenarios.
+Data Splitting
+Splitting: To create training and testing datasets, you split your original dataset into two parts. A common split ratio is 80-20, where 80% of the data is used for training, and 20% is used for testing. Sometimes, a 70-30 or 90-10 split might be used, depending on the size of the dataset and the specific needs of the problem.
+Here's a more detailed step-by-step process of data splitting:
+
+Initial Dataset: Start with your complete dataset containing both features and labels.
+Shuffle the Data: Randomly shuffle the dataset to ensure that the data points are randomly distributed. This helps in avoiding any bias that might be present due to the ordering of the data.
+Split the Data: Divide the dataset into two subsets:
+Training Set: Used to train the model.
+Testing Set: Used to evaluate the model’s performance.
+
+
+
+
+
+WHAT IS LINEAR REGRESSION MOPDEL ?
+---->
+Linear regression is a fundamental and widely-used statistical method in machine learning for modeling the relationship between a dependent variable (target) and one or more independent variables (features). The key idea behind linear regression is to find the best-fitting straight line (in the case of simple linear regression) or hyperplane (in the case of multiple linear regression) that predicts the target variable based on the input features.
