@@ -62,6 +62,13 @@ Testing Set: Used to evaluate the model’s performance.
 
 
 
-WHAT IS LINEAR REGRESSION MOPDEL ?
+WHAT IS LINEAR REGRESSION MODEL ?
 ---->
 Linear regression is a fundamental and widely-used statistical method in machine learning for modeling the relationship between a dependent variable (target) and one or more independent variables (features). The key idea behind linear regression is to find the best-fitting straight line (in the case of simple linear regression) or hyperplane (in the case of multiple linear regression) that predicts the target variable based on the input features.
+
+
+
+
+WHAT IS MULTIPLE REGRESSION MODEL ?
+---->
+A multiple regression model in machine learning is an extension of linear regression where the target variable is predicted based on multiple features. This type of regression is used when there are two or more independent variables (features) influencing the dependent variable (target).
