@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Health Insurance Prediction</title>
 </head>
 <body>
-    this is the demo  page
+    {% if result %}
+        <h1>Hello {{ name }}! Your health insurance estimate based on your age, height, and weight is Rs.{{ result }}\-</h1>
+    {% endif %}
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="number" name="age" placeholder="Enter your age" step="any" required>
+        <input type="number" name="height" placeholder="Enter your height" step="any" required>
+        <input type="number" name="weight" placeholder="Enter your weight" step="any" required>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
